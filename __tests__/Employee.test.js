@@ -6,7 +6,7 @@ test(`create properties`, () => {
     const employee = new Employee('Racquel', '37', 'racquelg85@hotmail.com');
 
     expect(employee.name).toEqual(expect.any(String));
-    expect(employee.id).toEqual(expect.any(Number));
+    expect(employee.id).toString(expect.any(Number));
     expect(employee.email).toEqual(expect.any(String));
 
 });
@@ -23,7 +23,7 @@ test(`get employee name from id`, () => {
 test(`get employee ID number`, () => {
     const employee = new Employee ('Racquel', '37', 'racquelg85@hotmail.com');
 
-    expect(employee.getId()).toEqual(expect.any(Number));
+    expect(employee.getId()).toString(expect.any(Number));
 });
 
 //Get email from getEmail
