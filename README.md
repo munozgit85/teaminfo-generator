@@ -35,6 +35,9 @@ Uses the Jest package https://www.npmjs.com/package/jest  for a suite of unit te
   ## Video
   https://github.com/munozgit85/teaminfo-generator/blob/f6e86350ee0d254be0212fdf7f05a68bd9370c53/newteam.mp4
 
+  ## Screen Shot 
+  https://github.com/munozgit85/teaminfo-generator/blob/d9c0d2899129baf38ea403f2dd9228e2f6dc7da6/Screen%20Shot%202022-09-20%20at%2010.39.54%20PM.png
+
   ## License
     No license. 
 
