@@ -31,6 +31,7 @@ const generateEngineer = function (engineer) {
     <h4 class="card-subtitle mb-2">Engineer
     <i class="fa-solid fa-person"></i>
     </h4>
+    </div>
         <p class="id">ID: ${engineer.id}</p>
         <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
         <p class="github">Github username: ${engineer.github}</p>
@@ -44,7 +45,22 @@ const generateEngineer = function (engineer) {
 
 const generateIntern = function (intern) {
         return `
-
+        <div class="card border border-5 gx-3" style="width: 18rem;">
+        <div class="card-body text-center">
+        <div class="title-box bg-primary text-white">
+        <h3 class="card-title">${intern.name}</h3>
+        <h4 class="card-subtitle mb-2">Intern
+        <i class="fa-solid fa-graduation-cap"></i>
+        </h4>
+        </div>
+            <p class="id">ID: ${intern.id}</p>
+            <p class="email">Email: <a href="mailto:${intern.email}">${intern.email}</a></p>
+            <p class="School Attended">School Attended: ${intern.school}</p>
+            <br>
+        </div>
+      </div>
+    
+    
         `
     };
 
