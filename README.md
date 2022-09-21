@@ -28,8 +28,13 @@ Uses the Jest package https://www.npmjs.com/package/jest  for a suite of unit te
 
   ## Usage
     First, clone the repository from the github profile. Complete the necessary installation as above. 
+
+  ## Sample HTML page generated 
+  https://github.com/munozgit85/teaminfo-generator/blob/f6e86350ee0d254be0212fdf7f05a68bd9370c53/dist/index.html  
   
-  
+  ## Video
+  https://github.com/munozgit85/teaminfo-generator/blob/f6e86350ee0d254be0212fdf7f05a68bd9370c53/newteam.mp4
+
   ## License
     No license. 
 
